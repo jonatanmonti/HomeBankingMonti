@@ -1,0 +1,7 @@
+{
+  "name": "HomeBankingMonti",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
