@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PxMjx9lRTnE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonat\\OneDrive\\Escritorio\\HomeBankingMonti\\HomeBankingApi\\HomeBankingApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

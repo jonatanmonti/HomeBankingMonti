@@ -1,0 +1,6 @@
+@HomeBankingApi_HostAddress = http://localhost:5063
+
+GET {{HomeBankingApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
