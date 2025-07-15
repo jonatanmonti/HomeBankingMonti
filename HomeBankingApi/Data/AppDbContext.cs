@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HomeBankingApi.Data
 {
-    public class HomeBankingContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public HomeBankingContext(DbContextOptions<HomeBankingContext> options)
+        public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
         {
         }
