@@ -11,7 +11,9 @@ import {
   IonLabel,
   IonGrid,
   IonRow,
-  IonCol
+  IonCol,
+  IonSegment,
+  IonSegmentButton 
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -30,7 +32,11 @@ import {
     IonLabel,
     IonGrid,
     IonRow,
-    IonCol
+    IonCol,
+    IonSegment,
+    IonSegmentButton 
   ]
 })
-export class LoginPage {}
+export class LoginPage {
+  selectedSegment: string = 'login';
+}

@@ -64,3 +64,16 @@
     filter: invert(50%);
   }
 }
+
+ion-segment {
+  --background: transparent;
+  --indicator-color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+ion-segment-button {
+  --color: #1e3c72;
+  --color-checked: #1e3c72;
+  font-weight: bold;
+  text-transform: uppercase;
+}

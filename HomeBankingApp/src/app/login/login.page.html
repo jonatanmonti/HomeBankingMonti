@@ -1,25 +1,62 @@
 <ion-content class="login-content">
   <div class="login-wrapper">
     <div class="login-card">
-      <img src="assets/icon/person-circle-outline.svg" class="avatar" />
-      <h2>¡Hola!</h2>
-      <h3 class="username">Usuario</h3>
 
-      <ion-item>
-        <ion-input type="password" placeholder="Clave +"></ion-input>
-        <ion-icon slot="end" name="chevron-down-outline"></ion-icon>
-      </ion-item>
+      <ion-segment [(ngModel)]="selectedSegment" value="login">
+        <ion-segment-button value="login">
+          <ion-label>Login</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="register">
+          <ion-label>Registro</ion-label>
+        </ion-segment-button>
+      </ion-segment>
 
-      <div class="forgot-password">
-        <a href="#">Olvidé mi clave</a>
+      <div *ngIf="selectedSegment === 'login'">
+        <img src="assets/icon/person-circle-outline.svg" class="avatar" />
+
+        <ion-item>
+          <ion-input type="text" placeholder="Usuario +"></ion-input>
+          <ion-icon slot="end" name="chevron-down-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item>
+          <ion-input type="password" placeholder="Clave +"></ion-input>
+          <ion-icon slot="end" name="chevron-down-outline"></ion-icon>
+        </ion-item>
+
+        <div class="forgot-password">
+          <a href="#">Olvidé mi clave</a>
+        </div>
+
+        <ion-button fill="clear" class="fingerprint-btn">
+          <img src="assets/icon/finger-print-outline.svg" alt="Huella" class="fingerprint-icon" />
+        </ion-button>
+
+        <ion-button expand="block" class="continue-btn">CONTINUAR</ion-button>
       </div>
 
- <ion-button fill="clear" class="fingerprint-btn">
-  <img src="assets/icon/finger-print-outline.svg" alt="Huella" class="fingerprint-icon" />
-</ion-button>
+      <div *ngIf="selectedSegment === 'register'">
+        <h2>Sign up and learn more!</h2>
 
+        <ion-item>
+          <ion-input type="text" placeholder="First Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Last Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="email" placeholder="Email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="tel" placeholder="Phone"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" placeholder="Password"></ion-input>
+        </ion-item>
 
-      <ion-button expand="block" class="continue-btn">Continuar</ion-button>
+        <ion-button expand="block" color="success">SUBMIT</ion-button>
+      </div>
+
     </div>
   </div>
 </ion-content>
