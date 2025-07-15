@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HomeBankingApi/appsettings.Development.json
+/HomeBankingApi/appsettings.Development.json
