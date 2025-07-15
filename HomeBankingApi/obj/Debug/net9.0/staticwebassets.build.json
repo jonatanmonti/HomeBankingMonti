@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RcdONe3+BPqitT+KiHnbhYioceRpFwaTwW/DdQzb+PQ=",
+  "Source": "HomeBankingApi",
+  "BasePath": "_content/HomeBankingApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
