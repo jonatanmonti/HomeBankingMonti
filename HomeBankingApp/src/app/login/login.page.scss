@@ -1,0 +1,66 @@
+.login-content {
+  --background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+
+  .login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .login-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .username {
+      color: #007bff;
+    }
+
+    ion-item {
+      margin-top: 16px;
+      border-radius: 10px;
+    }
+
+    .forgot-password {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .fingerprint-btn {
+      font-size: 32px;
+      margin-top: 12px;
+    }
+
+    .continue-btn {
+      margin-top: 20px;
+    }
+  }
+}
+
+.fingerprint-btn {
+  padding: 12px;
+
+  .fingerprint-icon {
+    width: 40px;
+    height: 40px;
+    filter: invert(50%);
+  }
+}
